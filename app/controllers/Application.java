@@ -18,42 +18,31 @@ public class Application extends Controller {
     			"<a href='/specialEvents'>specialEvents</a></br>");
         return ok(main.render("Super", html));
     }
-
-    public static Result about(){
-		return TODO;
-    }
-
-    public static Result cafe(){
-		return TODO;
-    }
-
-    public static Result contacts(){
-		return TODO;
-    }
-
-    public static Result giftShop(){
-		return TODO;
-    }
-
-    public static Result salon(){
-		return TODO;
-    }
-
-    public static Result spa(){
-		return TODO;
-    }
-
-    public static Result specialEvents(){
-		return TODO;
-    }
-
-    public static Result teaRoom(){
-		return TODO;
-    }
-
-    public static Result viewCart(){
-		return TODO;
-    }
-
-
+	public static Result about(){
+	return ok("about");
+	}
+	public static Result cafe(){
+	return ok("cafe");
+	}
+	public static Result contacts(){
+	return ok("contacts");
+	}
+	public static Result giftShop(){
+	return ok("giftShop");
+	}
+	public static Result salon(){
+	return ok("salon");
+	}
+	public static Result spa(){
+	return ok("spa");
+	}
+	public static Result specialEvents(){
+	return ok("specialEvents");
+	}
+	public static Result teaRoom(){
+	return ok("teaRoom");
+	}
+	public static Result viewCart(){
+	return ok("viewCart");
+	}
 }
